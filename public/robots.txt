@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+Disallow: /administrator-panel
+Disallow: /*?utm_source=
+Disallow: /*&utm_medium=
+Disallow: /*&utm_campaign=
+Disallow: /*?sid=
+Disallow: /*?gclid=
+Disallow: /*&sa=
+Disallow: /*&ved=
+Disallow: /*&usg=
+Disallow: /*?ycli=
+Disallow: /*?cm_id=
+Disallow: /*?keyword=
+
+User-agent: Googlebot
+Allow: /
+Disallow: /administrator-panel
+
+User-agent: AdsBot-Google
+Allow: /
+Disallow: /administrator-panel
+
+User-agent: Yandex
+Allow: /
+Disallow: /administrator-panel
+
+User-agent: Mailbot
+Allow: /
+Disallow: /administrator-panel
+
+Sitemap: https://demontazh-pro24.ru/sitemap.xml
+Host: demontazh-pro24.ru

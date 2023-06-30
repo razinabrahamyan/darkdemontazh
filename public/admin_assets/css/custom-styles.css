@@ -1,0 +1,152 @@
+.metal-choose-item {
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    height: 95px;
+    width: 95px;
+    transition: .25s;
+    cursor: pointer;
+    background-size: cover !important;
+    color: #FFFFFF;
+}
+
+.metal-choose-item.active {
+    border-color: green;
+}
+
+.metal-choose-item .item-name {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.metal-choose-item.category .item-name {
+    font-size: 12px;
+    padding: 4px;
+}
+
+.table svg {
+    width: 20px;
+    height: 20px;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child,
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child {
+    padding-left: 0;
+}
+
+.dark-layout .table .thead tr:not([class*='table-']) th,
+.dark-layout .table .thead tr:not([class*='table-']) td,
+.dark-layout .table tbody tr:not([class*='table-']) th,
+.dark-layout .table tbody tr:not([class*='table-']) td {
+    max-width: 25px !important;
+}
+
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before,
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+    content: "";
+    right: 0 !important;
+}
+
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before {
+    top: 0.7rem !important;
+}
+
+
+::-webkit-scrollbar-track,
+.card-datatable::-webkit-scrollbar-track,
+.modal-body.row::-webkit-scrollbar-track,
+.query-map-table::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar,
+.card-datatable::-webkit-scrollbar,
+.modal-body.row::-webkit-scrollbar,
+.query-map-table::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb,
+.card-datatable::-webkit-scrollbar-thumb,
+.modal-body.row::-webkit-scrollbar-thumb,
+.query-map-table::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dt-button.buttons-excel {
+    padding: 0;
+    background: transparent;
+    border: none;
+    margin: 10px 0 0 15px;
+    border-radius: 0.428rem;
+}
+
+.dataTables_length {
+    float: left;
+    margin: 10px 15px;
+}
+
+#metal_list_table_filter {
+    float: right;
+    margin: 10px 15px;
+}
+
+.mxw-150 {
+    max-width: 150px;
+}
+
+.menu-card {
+    border: 2px solid #283046;
+    transition: .4s;
+}
+
+.menu-card:hover {
+    border-color: orange;
+}
+
+@media screen and (max-width: 640px) {
+    .dataTables_length label {
+        margin: 0 !important;
+    }
+
+    .metal_list_table_filter label {
+        margin-bottom: 0 !important;
+    }
+
+    table.dataTable td {
+        font-size: 10px;
+        padding: 10px 2px;
+    }
+
+    .table svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    th.fs-16 {
+        font-size: 14px !important;
+    }
+
+    .dataTables_length, #metal_list_table_filter {
+        margin: 0 0 0 15px;
+        float: left;
+    }
+
+}
